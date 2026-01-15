@@ -1,0 +1,260 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+:root{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.btns{
+        a{
+            i{
+                font-size: 2rem;
+            }
+            span{
+                font-size: 1rem;
+            }
+        }
+}
+.navbar-brand{
+    font-weight: 500;
+    color: #198754;
+    font-size: 5rem;
+    margin: 0 16px 8px 0px;
+    transition: all 0.2s ease;
+    &:hover{
+        color: #1e9c61;
+    }
+
+}
+.nav-link{
+    color: #212934;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    &:hover{
+        color: #1e9c61 !important;
+    }
+}
+.main-c{
+    color: #198754;
+}
+p{
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #212529;
+}
+.p-title{
+    color: #212529;
+    font-size: 5rem;
+    font-weight: 300;
+}
+.hero{
+    background-color: #eeefee;
+    .carousel-indicators{
+        color: #198754 !important;
+        background-color: #198754 !important;
+        width: 100%;
+        margin: 0;
+    }
+    button{
+        background-color: #198754;
+        height: fit-content;
+        width: fit-content;
+        align-self: center;
+        margin: 0 40px;
+        color: #198754 !important;
+        font-size: 5rem;
+    }
+    .hero_text{
+        .hero_title{
+            display: block;
+            color: #198754;
+            font-size: 5rem;
+                font-weight: bolder;
+                span{
+                    font-weight: 300;
+                }
+            } 
+            .hero_title_2{
+                display: block;
+                color: #212529;
+                font-size: 5rem;
+                font-weight: 300;
+            }
+    .hero_desc{
+        h3{
+            font-size: 3rem;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 2px;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 2rem;
+            font-weight: 300;
+            color: #212529;
+        }
+    }
+    }
+    .banner__img{
+    
+    }
+}
+.categories{
+    .p-subtitle{
+        width: 55%;
+        margin: auto;
+    }
+    .card{
+        border: 0;
+        .card__img{
+
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50% !important;
+            }
+        }
+        .card_btn{
+        width: fit-content;
+        align-self: center;
+        padding: 6px 12px;
+    }
+    }
+}
+
+.Featured{
+    background-color: #e8eff5;
+    .card{
+        .text-right{
+            font-size: 2rem;
+        }
+    }
+
+}
+
+footer {
+    background-color: #212934;
+
+    .logo {
+        font-size: 3.2rem;
+        font-weight: 500;
+        color: #198754 !important;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 300;
+        margin-bottom: 1.6rem;
+    }
+
+    .footer-link-list {
+        margin-top: 1.2rem;
+
+        li {
+            font-size: 1.6rem;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            color: #cfd6e1;
+
+            i {
+                margin-right: 1rem;
+                font-size: 1.6rem;
+            }
+
+            a {
+                color: #cfd6e1;
+                font-size: 1.6rem;
+                transition: color 0.2s ease;
+
+                &:hover {
+                    color: #198754;
+                }
+            }
+        }
+    }
+
+    
+
+    .footer-icons {
+        li {
+            width: 40px;
+            height: 40px;
+            line-height: 38px;
+            margin-right: 0.5rem;
+            transition: all 0.2s ease;
+
+            a {
+                display: block;
+                font-size: 1.6rem;
+            }
+
+            &:hover {
+                background-color: #198754;
+                border-color: #198754;
+
+                a {
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+
+    .input-group {
+        input {
+            font-size: 1.6rem;
+            padding: 0.8rem 1rem;
+            color: #fff;
+
+            &::placeholder {
+                color: #adb5bd;
+            }
+        }
+
+        .btn-success {
+            font-size: 1.6rem;
+            padding: 0.8rem 1.6rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            background-color: #212529;
+            &:hover {
+                background-color: #157347;
+            }
+        }
+    }
+
+    .bg-black {
+        background-color: #1d242d !important;
+
+        p {
+            font-size: 1.4rem;
+            color: #cfd6e1;
+
+            a {
+                color: #198754;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    :root{
+        font-size:7px;
+    }
+}
